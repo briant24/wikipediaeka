@@ -65,8 +65,9 @@ p {
                 <div class="mp-footer&#95;_main">
                     <div class="mp-content-box-other">
                         <h2 class="mp-content-box-other&#95;_header">
-                            <span class="mw-headline" id="Proyek_Wikimedia_lain">
-                                <div class="mp-content-box-other&#95;_header-icon"><span typeof="mw:File">
+                            <span class="mw-headline" id="Artikel_Terbaru">
+                                <div class="mp-content-box-other&#95;_header-icon">
+                                    <span typeof="mw:File">
                                         <span><img alt=""
                                                 src="//upload.wikimedia.org/wikipedia/commons/thumb/1/14/Wikimedia-logo-circle.svg/38px-Wikimedia-logo-circle.svg.png"
                                                 decoding="async" width="38" height="38" class="mw-file-element"
@@ -76,9 +77,11 @@ p {
                                     </span>
                                 </div>
                                 <div class="mp-content-box-other&#95;_header-text">Artikel Terbaru</div>
-                                <br>
-                                <div class="mp-content-box-other&#95;_content">
-                                    <?php
+                            </span>
+                        </h2>
+                    </div>
+                    <div class="mp-content-box-other&#95;_content">
+                        <?php
                                     include 'api.php';
                                     $result = $conn->query("SELECT * FROM articles ORDER BY created_at DESC");
                                     if ($result->num_rows > 0) {
@@ -108,13 +111,11 @@ p {
                                     }
                                     $conn->close();
                                     ?>
-                                </div>
-                            </span>
-                        </h2>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </body>
 

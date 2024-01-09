@@ -24,11 +24,6 @@ include ('header.php');
             <div class="vector-body-before-content">
                 <div id="siteSub" class="noprint">Dari Wikipedia bahasa Indonesia, ensiklopedia bebas</div>
             </div>
-            <div id="contentSub">
-                <div id="mw-content-subtitle">
-
-                </div>
-            </div>
             <div id="mw-content-text" class="mw-body-content">
                 <div class="mw-content-ltr mw-parser-output" lang="id" dir="ltr">
                     <div id="atas">
@@ -615,39 +610,12 @@ include ('header.php');
                     <div>
                         <?php include('content.php');?>
                     </div>
-                    
-                    <!-- <div id="content">
-      <div id="intro">
-        <h1>Selamat datang di Wikipedia,</h1>
-        <p>ensiklopedia bebas yang dapat disunting oleh siapa saja.</p>
-        <p>Saat ini, Wikipedia bahasa Indonesia memiliki <strong>1.021.000</strong> artikel.</p>
-      </div>
-      <div id="featured">
-        <h2>Artikel pilihan</h2>
-        <div id="featured-image">
-          <img src="img/pencil.jpg" alt="Artikel pilihan">
+                </div>
+            </div>
         </div>
-        <div id="featured-text">
-          <p><a href="#">Kucing</a> adalah hewan mamalia karnivora dari keluarga Felidae. Kucing telah berbaur dengan manusia paling tidak sejak 9.500 tahun yang lalu, dan saat ini adalah hewan peliharaan yang paling populer di dunia. Kucing memiliki beragam jenis, mulai dari kucing ras, kucing campuran, hingga kucing liar.</p>
-          <p><a href="#">Baca selengkapnya...</a></p>
-        </div>
-      </div>
-      <div id="news">
-        <h2>Peristiwa terkini</h2>
-        <ul>
-          <li><a href="#">27 Desember</a>: Gunung Agung di Bali meletus dan menyebabkan abu vulkanik menyebar ke sekitar pulau.</li>
-          <li><a href="#">26 Desember</a>: Gempa bumi berkekuatan 6,8 SR mengguncang Pulau Jawa dan menimbulkan kerusakan di beberapa daerah.</li>
-          <li><a href="#">25 Desember</a>: Hari Natal dirayakan oleh umat Kristen di seluruh dunia.</li>
-          <li><a href="#">24 Desember</a>: Presiden Joko Widodo mengumumkan bahwa vaksin COVID-19 akan mulai disuntikkan pada Januari 2024.</li>
-          <li><a href="#">23 Desember</a>: Pemilu legislatif dan presiden diadakan di Korea Selatan, dengan hasil menunjukkan kemenangan telak bagi partai oposisi.</li>
-        </ul>
-      </div>
-      <div id="footer">
-        <p>Wikipedia® adalah merek dagang terdaftar dari Wikimedia Foundation, Inc., sebuah organisasi nirlaba.</p>
-        <p>Kebijakan privasi | Tentang Wikipedia | Penyangkalan | Pengembang | Statistik | Pernyataan kuki | Versi seluler</p>
-      </div>
     </div>
-  </div> -->
 </body>
-
+<footer>
+    <?php include('footer.php'); ?>
+</footer>
 </html>
